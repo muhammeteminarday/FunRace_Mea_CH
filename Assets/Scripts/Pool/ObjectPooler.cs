@@ -101,12 +101,7 @@ public class ObjectPooler : MonoBehaviour
         newObject.SetActive(false);
         poolDictionaryList[tag].Enqueue(newObject);
 
-        //IPooledObjectMea pooledObject = newObject.GetComponent<IPooledObjectMea>();
-        //if (pooledObject != null)
-        //{
-        //    pooledObject.OnObjectSpawn
-        //        ();
-        //}
+    
 
     }
 }
