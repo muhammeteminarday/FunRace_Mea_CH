@@ -1,0 +1,20 @@
+
+Asset/Demigiant/DOTween kütüphanesi Kullanım Süresi:1 Yıl
+Geri Kalan herşeyi sıfırdan kendim yazdım.
+
+Önemli Okuyunuz!
+
+Unityde Hierarchy de bulunan;
+*GameManagers Scriptinde
+- Player Ve Ai'nin Move Speed i ayarlanabiliyor.
+-Auto Increasing Difficulty bool'u true yaparsanız her levelde obstacle Spawn oranı "autoObstacleSpawnRateValue" oranı ile artmaktadır.
+-Auto Increasing Difficulty bool false yaparsanız manuel olarak obstacleSpawnRate den ayarlanabilir
+-Level Lenght değişkeni ise her levelde 1 arttıp level büyümektedir. Manuel olarak'da değişebilir.
+-"allObstacleSpeedChange" bool 'u true olması haline tüm obstaclelerin speed 'i "allObstacleSpeed" de ayarladığınız şekilde ayarlanır.
+-"allObstacleSpeedChange" bool 'u false yapmanız durumunda her prefab'dan ayrı ayrı manuel hız ayarlarını ayarlanabilir.
+
+
+*AiContoller nereye yerleştirirseniz (X Pos) wayPoint baz alarak offset vererek haraket sağlar.
+
+
+
